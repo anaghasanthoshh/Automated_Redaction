@@ -4,3 +4,6 @@ pytesseract==0.3.10  # OCR for extracting text from scanned  pdfs in image forma
 Pillow==10.2.0       # Image processing support for OCR
 opencv-python==4.9.0.80  # Image preprocessing for better OCR accuracy
 numpy==1.26.4        # Required for OpenCV image operations
+transformers
+torch
+langchain
