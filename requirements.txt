@@ -1,0 +1,6 @@
+pymupdf==1.23.5      # for extracting text from digital PDFs
+pdf2image==1.16.3    # Converts PDF pages to images for pytessearct
+pytesseract==0.3.10  # OCR for extracting text from scanned  pdfs in image format
+Pillow==10.2.0       # Image processing support for OCR
+opencv-python==4.9.0.80  # Image preprocessing for better OCR accuracy
+numpy==1.26.4        # Required for OpenCV image operations
