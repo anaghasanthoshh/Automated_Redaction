@@ -32,6 +32,14 @@
             font-weight: bold;
             color: #555;
         }
+          .signature {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .signature img {
+            width: 200px;  /* Adjust signature size */
+            height: auto;
+        }
         .footer {
             margin-top: 20px;
             font-size: 12px;
@@ -61,6 +69,11 @@
         <div class="info"><span class="label">Credit Card Number:</span> {{ ccn }}</div>
         <div class="info"><span class="label">CVC:</span> {{ cc_cvc }}</div>
         <div class="info"><span class="label">Expiration Date:</span> {{ cc_expiredate }}</div>
+
+        <div class="signature">
+            <p>Signature:</p>
+            <img src="{signature_path}" alt="Signature">
+        </div>
 
         <div class="footer">
             <p>Confidential Document - Handle with Care</p>
